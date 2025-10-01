@@ -40,6 +40,7 @@
 
 - Python 3.7+
 - Playwright 浏览器自动化框架
+- Google Chrome 浏览器
 
 ### 安装依赖
 
@@ -128,7 +129,7 @@ playwright install chromium
 
 如果 API 调用失败，可以尝试：
 
-1. 删除 `auth_state.json` 文件重新建立会话
+1. 运行login.py进行登陆
 2. 检查网络连接是否稳定
 3. 确认目标网站可正常访问
 4. 查看程序输出的错误信息
@@ -143,4 +144,5 @@ playwright install chromium
 ## 许可证
 
 本项目仅供学习和研究使用，请遵守相关网站的使用条款。
+
 
