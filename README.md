@@ -50,6 +50,8 @@ playwright install chromium
 
 ### API 调用方法
 
+（请先运行login.py，然后再弹出的网页中登陆一下）
+
 1. **准备请求**：在 `que.txt` 文件中写入你想要询问 AI 的问题
 
 2. **执行调用**：
@@ -141,3 +143,4 @@ playwright install chromium
 ## 许可证
 
 本项目仅供学习和研究使用，请遵守相关网站的使用条款。
+
